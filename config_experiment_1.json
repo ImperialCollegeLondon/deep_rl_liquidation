@@ -1,0 +1,9 @@
+
+
+[
+    {"job_name":"experiment_1-linear_resilience_kernel_0.5", "max_episodes":30000, "sigma_noise":0.2, "batch_size": 1000, "cache_size":10000, "kernel_type": "LinearResilienceKernel", "kernel_decay":0.5, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false},
+    {"job_name":"experiment_1-power_law_kernel", "max_episodes":30000, "sigma_noise":0.2, "batch_size": 1000, "cache_size":15000, "kernel_type": "PowerLawKernel", "kernel_decay":1.0, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false},
+    {"job_name":"experiment_1-linear_resilience_kernel_0.05", "max_episodes":30000, "sigma_noise":0.2, "batch_size": 1000, "cache_size":20000, "kernel_type": "LinearResilienceKernel", "kernel_decay":0.05, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false},
+    {"job_name":"experiment_1-exponential_decay_kernel", "max_episodes":30000, "sigma_noise":0.2, "batch_size": 1000, "cache_size":15000, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false},
+    {"job_name":"experiment_1-exponential_decay_kernel_without_auxiliary_q_function", "max_episodes":30000, "sigma_noise":0.2, "batch_size": 1000, "cache_size":15000, "auxiliary_bellman_equation":false, "price_in_input":true, "actor_input_dim":13, "critic_input_dim":14, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false}
+]
