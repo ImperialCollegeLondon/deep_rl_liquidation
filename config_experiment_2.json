@@ -1,0 +1,5 @@
+[
+    { "job_name":"experiment_2-exponential_decay_kernel_decrease", "epsilon":0.2, "sigma_noise":0.14, "kernel_decay": 1.0, "kernel_decay_change": 0.5 , "max_episodes":100000, "batch_size": 500, "cache_size":2000, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false}, 
+    { "job_name":"experiment_2-exponential_decay_kernel_increase", "epsilon":0.2, "sigma_noise":0.14, "kernel_decay": 1.0, "kernel_decay_change": 1.5 , "max_episodes":100000, "batch_size": 500, "cache_size":2000, "plot_actions": false, "plot_rewards": false, "plot_loss": false, "plot_environment": false}    
+
+]
